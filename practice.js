@@ -6,7 +6,7 @@
   You can refresh the page at any time to re-run all the tests.
 */
 
-////////// PROBLEM 1 //////////
+// //////// PROBLEM 1 //////////
 
 /*
   Create an object called me. 
@@ -14,58 +14,64 @@
   Then alert your name using dot notation.
 */
 
-//Code here
-
-
-
-////////// PROBLEM 2 //////////
+// Code here
+const me = {
+	name: 'Jordon Trower',
+	age: 18
+};
+// //////// PROBLEM 2 //////////
 
 /*
   Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday. 
   Have the values to those keys be your favorite thing in that category.
 */
 
-//Code here
-
-
-
+// Code here
+const favoriteThings = {
+	band: 'Siivagunner',
+	food: 'Rice',
+	person: 'Uhhh',
+	book:
+		'That one really long smash bros fanfic that holds the title of worlds longest literature',
+	movie: 'AAA',
+	holiday: 'aaa'
+};
 /*
   After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
 
-//Code here
-
-
-
+// Code here
+favoriteThings.car = '1996 NA Miata';
+favoriteThings.brand = 'Mazda';
 /*
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
+// Code here
 
-//Code here
-
-
-
-////////// PROBLEM 3 //////////
+// //////// PROBLEM 3 //////////
 
 /* 
   Create an empty Object called backPack. 
   Now, create a variable called 'item' and set it equal to the string 'firstPocket'. 
   Using bracket notation, add a 'firstPocket' key (or property) to backPack, using 'item'.
   Set the value of that key to 'chapstick'.
-  Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack. 
+  Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backPack. 
 */
 
-//Code here
+// Code here
+const backPack = {};
 
+const item = 'firstPocket';
 
-
+backPack[item] = 'chapstick';
+backPack.color = 'black & red';
 /*
   After you do the above, alert your entire backPack object.
 */
-
-//Code here
-
-
+alert(backPack);
+// Code here
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -73,20 +79,18 @@ Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console. 
 */
 
-//Code here
-
-
-
-////////// PROBLEM 4 //////////
+// Code here
+console.log(backPack);
+// //////// PROBLEM 4 //////////
 
 // Do not edit the code below.
-var user2 = {
-  name: 'Ty',
-  age: 24,
-  pwHash: 'U+Ldlngx2BYQk',
-  email: 'ty33@gmail.com',
-  birthday: '05/02/1990',
-  username: 'tylermcginnis33'
+const user2 = {
+	name: 'Ty',
+	age: 24,
+	pwHash: 'U+Ldlngx2BYQk',
+	email: 'ty33@gmail.com',
+	birthday: '05/02/1990',
+	username: 'tylermcginnis33'
 };
 // Do not edit the code above.
 
@@ -96,57 +100,47 @@ var user2 = {
   Make that change without modifying the original object code above.
 */
 
-//Code Here
+// Code Here
+user2.name = 'Tyler S. McGinnis';
+user2.email = 'tyler.mcginnis@devmounta.in';
 
+// //////// EXTRA PRACTICE PROBLEMS BELOW //////////
 
-
-////////// EXTRA PRACTICE PROBLEMS BELOW //////////
-
-////////// PROBLEM 5 //////////
+// //////// PROBLEM 5 //////////
 
 /*
   Create an empty object called methodCollection.
 */
 
-//Code Here
-
-
+// Code Here
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object. 
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console. 
 */
 
-//Code Here
-
-
+// Code Here
 
 /*
   Now call your alertHello and logHello methods.
 */
 
-//Code Here
+// Code Here
 
-
-
-////////// PROBLEM 6 //////////
+// //////// PROBLEM 6 //////////
 
 /* 
   Create a function called makePerson which takes in name, birthday, ssn as its parameters. 
   Return a new object with all of the information that you passed in.
 */
 
-//Code Here
+// Code Here
 
-
-
-////////// PROBLEM 7 //////////
+// //////// PROBLEM 7 //////////
 
 /*
   Create a function called makeCard which takes in cardNumber, expirationDate, and securityCode to make a Credit Card object.
   Return that object so that whenever you invoke makeCard, you get a brand new credit card.
 */
 
-//Code Here
-
-
+// Code Here
